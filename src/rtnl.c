@@ -1,10 +1,17 @@
 /* rtnl - rtnetlink utility functions
  *
  * (C) 2004 by Astaro AG, written by Harald Welte <hwelte@astaro.com>
+<<<<<<< HEAD
  *
  * Adapted to nfnetlink by Eric Leblond <eric@inl.fr>
  *
  * This software is free software and licensed under GNU GPLv2+.
+=======
+ * 
+ * Adapted to nfnetlink by Eric Leblond <eric@inl.fr>
+ *
+ * This software is free software and licensed under GNU GPLv2. 
+>>>>>>> 615cfe9252e0be626d6b575ec67cc8ccb1c8b39b
  *
  */
 

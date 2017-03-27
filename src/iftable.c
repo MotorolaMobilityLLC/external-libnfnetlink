@@ -3,7 +3,11 @@
  * (C) 2004 by Astaro AG, written by Harald Welte <hwelte@astaro.com>
  * (C) 2008 by Pablo Neira Ayuso <pablo@netfilter.org>
  *
+<<<<<<< HEAD
  * This software is Free Software and licensed under GNU GPLv2+.
+=======
+ * This software is Free Software and licensed under GNU GPLv2. 
+>>>>>>> 615cfe9252e0be626d6b575ec67cc8ccb1c8b39b
  */
 
 /* IFINDEX handling */
