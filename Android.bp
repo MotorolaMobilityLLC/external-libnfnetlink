@@ -1,6 +1,7 @@
 cc_library_shared {
     name: "libnfnetlink",
     export_include_dirs: ["include"],
+    vendor: true,
     srcs: [
         "src/iftable.c",
         "src/libnfnetlink.c",
