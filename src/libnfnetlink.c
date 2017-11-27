@@ -891,10 +891,6 @@ int nfnl_addattr_l(struct nlmsghdr *n, int maxlen, int type, const void *data,
 	nfa->nfa_type = type;
 	nfa->nfa_len = len;
 	memcpy(NFA_DATA(nfa), data, alen);
-<<<<<<< HEAD
-	memset((uint8_t *)nfa + nfa->nfa_len, 0, NFA_ALIGN(alen) - alen);
-=======
->>>>>>> 615cfe9252e0be626d6b575ec67cc8ccb1c8b39b
 	n->nlmsg_len = (NLMSG_ALIGN(n->nlmsg_len) + NFA_ALIGN(len));
 	return 0;
 }
